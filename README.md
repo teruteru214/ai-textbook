@@ -1,40 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# サービス概要
 
-## Getting Started
+英単語・熟語を記録し、AIで問題を生成して効率よく英単語を学習するサービスです。
 
-First, run the development server:
+## なぜ開発するか
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+TOEICの勉強中に知らない英単語を効率よく覚えたいと考えました。英単語をまとめて例文にし、翻訳することで効率よく学習できるのではないかと考えました。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## どのように解決するか
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+英単語・熟語を記録し、複数の英単語を使ってAIに例文を生成するサービスを提供します。
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## メイン機能
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Top
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **キャッチコピー**の表示
+- **Demo**の紹介
+- **アプリ**の紹介
+- **サブスク**の紹介（後回し）
 
-## Learn More
+## 単語帳機能
 
-To learn more about Next.js, take a look at the following resources:
+- **英語・熟語作成機能**: カテゴリーリストと共に英単語(熟語)カードと訳文を作成
+- **英単語・熟語テスト機能**: 保存した英単語(熟語)カードの問題を解く。音声出力機能付き。カテゴリーや和訳と英訳などのテスト形式を変更可能
+- **英単語・熟語カード暗記機能**: 単語帳ページで単語(熟語)カードを表裏反転して暗記
+- **英語・熟語一覧・編集機能**: 作成した英単語(熟語)と訳文やカテゴリーを一覧で表示・編集
+- **英単語・熟語復習機能**: 間違えた英単語(熟語)の復習
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 例文機能
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **例文作成機能**: ユーザーが保存した英単語(熟語)を使った問題を作成。複数の英単語を選択し、難易度（TOEIC基準と学生基準）、テーマ、トピックを選択して英文を作成
+- **例文集機能**: 作成した例文の一覧表示と詳細表示。単語の詳細モーダル、いいね、削除、メモ、後で解くなどのチェック機能
+- **例文翻訳機能**: 作成した例文の翻訳
 
-## Deploy on Vercel
+## ユーザー設定
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **ユーザー設定機能**: ユーザー情報、退会、ログアウト
+- **サブスクリプション機能**: Stripeで実装予定
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 開発の流れ
+
+1. 要件定義
+2. Figma
+3. ER図
+4. 環境構築
+5. MSWを使ったフロントエンド開発、テスト作成、デモ版作成
+6. 非同期処理実装
+7. 完成
+
+## 後回しにしてもいい機能
+
+- emailとpasswordのログイン機能 (Googleで事足りる場合)
+- パスワード再設定機能
+- 退会機能
+- Githubの草を表示する機能
+- 例文一覧に絞り込み機能 (利用者が増えたら追加)
+- サブスク機能 (Stripeなど)
