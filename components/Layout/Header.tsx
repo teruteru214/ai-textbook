@@ -1,6 +1,6 @@
 import Image from "next/image";
 import logo from "/public/logo.webp";
-import { Button } from "../UI/button";
+import { Button } from "../Ui/Button";
 
 const Header = () => {
 	return (
