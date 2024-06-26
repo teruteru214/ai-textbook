@@ -19,7 +19,7 @@ export default function Home() {
 					英語学習を始める
 				</Button>
 			</div>
-			<h2 className="text-4xl text-center mt-8">こんな方におすすめ</h2>
+			<h2 className="text-4xl text-center my-8">こんな方におすすめ</h2>
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
 				<div className="flex flex-col items-center justify-between h-80">
 					<Image src={student} alt="student" width={300} height={300} />
