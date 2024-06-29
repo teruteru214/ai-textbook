@@ -7,7 +7,7 @@ import video from "../public/video.webp";
 
 export default function Home() {
 	return (
-		<div>
+		<div className="max-w-screen-lg mx-auto">
 			<h1 className="text-4xl text-center mt-14">苦手な英単語、まとめて克服</h1>
 			<p className="text-gray-400 text-center">
 				わからない英単語を元に、AIが英文を作成します。
