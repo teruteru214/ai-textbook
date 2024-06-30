@@ -24,35 +24,35 @@ const LoginHeader = () => {
 							<DrawerHeader className="flex justify-between items-center">
 								<Image src={logo} alt="logo" width={150} height={37} />
 								<DrawerClose className="ml-auto">
-									<X className="w-9 h-9 pb-1" />
+									<X className="w-9 h-9" />
 								</DrawerClose>
 							</DrawerHeader>
-							<div className="p-3">
-								<dl className="text-xs text-gray-400 my-2">English Text</dl>
-								<menu className="text-xl space-y-3">
+							<div className="px-3">
+								<dl className="text-xs text-gray-400 my-1">English Text</dl>
+								<menu className="space-y-2">
 									<li>みんなの英文</li>
 									<li>英文を作る</li>
 									<li>あなたの英文</li>
 									<li>あとで解く</li>
 									<li>いいね</li>
 								</menu>
-								<dl className="text-xs text-gray-400 my-2">User</dl>
-								<menu className="text-xl space-y-2">
+								<dl className="text-xs text-gray-400 my-1">User</dl>
+								<menu className="space-y-2">
 									<li>学習記録</li>
 									<li>ログアウト</li>
 								</menu>
-								<dl className="text-xs text-gray-400 my-2">About</dl>
-								<menu className="text-xl">
+								<dl className="text-xs text-gray-400 my-1">About</dl>
+								<menu className="space-y-2">
 									<li>本サービス</li>
 								</menu>
-								<dl className="text-xs text-gray-400 my-2">Others</dl>
-								<menu className="text-xl space-y-2">
+								<dl className="text-xs text-gray-400 my-1">Others</dl>
+								<menu className="space-y-2">
 									<li>利用規約</li>
 									<li>プライバシーポリシー</li>
 									<li>お問い合わせ</li>
 								</menu>
-								<dl className="text-xs text-gray-400 my-2">Related sites</dl>
-								<menu className="text-xl space-y-2">
+								<dl className="text-xs text-gray-400 my-1">Related sites</dl>
+								<menu className="space-y-2">
 									<li>Xアカウント</li>
 									<li>Githubリポジトリ</li>
 									<li>Qiita記事</li>
