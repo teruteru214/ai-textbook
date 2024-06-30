@@ -8,8 +8,10 @@ import video from "../public/video.webp";
 export default function Home() {
 	return (
 		<div className="max-w-screen-lg mx-auto">
-			<h1 className="text-4xl text-center mt-14">苦手な英単語、まとめて克服</h1>
-			<p className="text-gray-400 text-center">
+			<h1 className="text-2xl sm:text-4xl text-center mt-14">
+				苦手な英単語、まとめて克服
+			</h1>
+			<p className="text-xs sm:text-base text-gray-400 text-center">
 				わからない英単語を元に、AIが英文を作成します。
 				<br />
 				作成した英文を翻訳して、英単語の使い方を学ぶ学習ツールです。
@@ -19,7 +21,9 @@ export default function Home() {
 					英語学習を始める
 				</Button>
 			</div>
-			<h2 className="text-4xl text-center my-8">こんな方におすすめ</h2>
+			<h2 className="text-2xl sm:text-4xl text-center my-8">
+				こんな方におすすめ
+			</h2>
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
 				<div className="flex flex-col items-center justify-between h-80">
 					<Image src={student} alt="student" width={300} height={300} />
