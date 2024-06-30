@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Button } from "../components/Ui/Button";
+import { Button } from "../components/ui/Button";
 import communication from "../public/communication.webp";
 import developer from "../public/developer.webp";
 import student from "../public/student.webp";

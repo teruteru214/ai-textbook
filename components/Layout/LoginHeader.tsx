@@ -7,8 +7,8 @@ import {
 	DrawerContent,
 	DrawerHeader,
 	DrawerTrigger,
-} from "../Ui/Drawer";
-import { Tabs, TabsList, TabsTrigger } from "../Ui/Tabs";
+} from "../ui/Drawer";
+import { Tabs, TabsList, TabsTrigger } from "../ui/Tabs";
 
 const LoginHeader = () => {
 	return (
