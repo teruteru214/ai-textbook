@@ -1,5 +1,5 @@
-import Footer from "@/components/Layout/Footer";
-import LoginHeader from "@/components/Layout/LoginHeader";
+import Footer from "@/components/layout/Footer";
+import LoginHeader from "@/components/layout/LoginHeader";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import { Roboto } from "next/font/google";
