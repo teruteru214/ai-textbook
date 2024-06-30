@@ -54,7 +54,7 @@ const LoginHeader = () => {
 								<dl className="text-xs text-gray-400 my-1">Related sites</dl>
 								<menu className="space-y-2">
 									<li>Xアカウント</li>
-									<li>Githubリポジトリ</li>
+									<li>Github</li>
 									<li>Qiita記事</li>
 								</menu>
 							</div>
